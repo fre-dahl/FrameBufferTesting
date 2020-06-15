@@ -78,6 +78,7 @@ public class GameClass extends ApplicationAdapter {
     @Override
     public void render() {
         // basic controls
+        //
         float dt = Gdx.graphics.getDeltaTime();
         camera.translate(direction.x*speed*dt, direction.y*speed*dt,0);
         camera.update();
